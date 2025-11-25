@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>다른 그림 찾기</title>
+    <link rel="stylesheet" href="g.css">
+    <style>
+    @font-face {
+        font-family: 'YoonchoUsanChildrenS';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408@1.0/YoonChildfundkoreaDaeHan.woff2') format('woff2');
+        font-weight: normal;
+        font-display: swap;
+    }
+
+    body {
+    font-family: 'YoonchoUsanChildrenS', sans-serif;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title">다른 그림 찾기</div>
+        <div class="button">
+            <button id="startbtn">시작</button>
+            <button>오늘의 순위</button>
+            <button>도움말</button>
+        </div>
+        <div class="statusbar">
+            <span id="stopwatch">걸린 시간 : 00:00.00</span>
+            <span id="clicknumber">클릭 횟수 : 0</span>
+            <button>포기하기</button>
+        </div> 
+        
+    </div>
+    <div class="main">
+        <div class="img"><img width=400px height=300px src="qbox.gif"></div>
+        <div class="img"><img width=400px height=300px src="qbox.gif"></div>
+    </div>
+    <div class="s2"></div>
+    <p id="message"></p>
+
+    <script src="g.js"></script>
+</body>
+</html>
